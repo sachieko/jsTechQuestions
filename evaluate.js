@@ -72,8 +72,8 @@ const caseOne = evalMatrix(resultMatrix, expectedMatrix1, sumResult1, expectedSu
 const caseTwo = evalMatrix(resultMatrix2, expectedMatrix2, sumResult2, expectedSum2);
 const caseThree = evalMatrix(resultMatrix3, expectedMatrix3, sumResult3, expectedSum3);
 
-console.log(`Case 1: 2D array ${caseOne ? passString : failString}`);
-console.log(`Case 2: 1D array ${caseTwo ? passString : failString}`);
-console.log(`Case 2: 1D array ${caseThree ? passString : failString}`);
+console.log(`Case 1: 2D Param ${caseOne ? passString : failString}`);
+console.log(`Case 2: 1D Param ${caseTwo ? passString : failString}`);
+console.log(`Case 2: Uneven matrix ${caseThree ? passString : failString}`);
 
 console.log(chalk.yellow('--- Q2 End ---'));
