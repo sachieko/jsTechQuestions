@@ -1,6 +1,6 @@
 // Do not modify this file, run using `node evaluate.js` to test your functions
 import  chalk  from  'chalk';
-import { isPalindrome, maxSubMatrix } from "./solutions.js";
+import { isPalindrome, maxSubMatrix } from "./technicalQuestions.js";
 
 const passString = chalk.green('Case Passed\n');
 const failString = chalk.red('Case Failed\n');
